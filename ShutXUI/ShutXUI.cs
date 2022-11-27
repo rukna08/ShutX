@@ -8,7 +8,7 @@ namespace ShutXUI {
 
         readonly ShutXLibrary.Time time;
 
-        //readonly ShutXLibrary.Util util;
+        readonly ShutXLibrary.Util util;
 
         public ShutXUI() {
         
@@ -16,7 +16,7 @@ namespace ShutXUI {
 
             time = new ShutXLibrary.Time();
 
-            //util = new ShutXLibrary.Util();
+            util = new ShutXLibrary.Util();
 
             this.BackColor = Color.FromArgb(20, 20, 20);
         
@@ -204,7 +204,13 @@ namespace ShutXUI {
 
             time.SetSeconds(int.Parse(secondLabel.Text));
 
-            MessageBox.Show("Final seconds: " + time.CalculateFinalSeconds());
+            string Command = "shutdown -s -t " + time.CalculateFinalSeconds().ToString();
+
+            util.SetCommand(Command);
+
+            util.ExecuteCommand();
+
+            Application.Exit();
 
         }
 
