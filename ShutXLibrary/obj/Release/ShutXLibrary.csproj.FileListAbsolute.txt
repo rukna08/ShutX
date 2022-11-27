@@ -1,0 +1,6 @@
+C:\Users\Ankur\Desktop\ShutX\ShutXLibrary\bin\Release\ShutXLibrary.dll
+C:\Users\Ankur\Desktop\ShutX\ShutXLibrary\bin\Release\ShutXLibrary.pdb
+C:\Users\Ankur\Desktop\ShutX\ShutXLibrary\obj\Release\ShutXLibrary.csproj.AssemblyReference.cache
+C:\Users\Ankur\Desktop\ShutX\ShutXLibrary\obj\Release\ShutXLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Ankur\Desktop\ShutX\ShutXLibrary\obj\Release\ShutXLibrary.dll
+C:\Users\Ankur\Desktop\ShutX\ShutXLibrary\obj\Release\ShutXLibrary.pdb
