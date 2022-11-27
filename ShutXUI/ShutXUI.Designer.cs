@@ -32,7 +32,7 @@
             this.hourLabel = new System.Windows.Forms.TextBox();
             this.minuteLabel = new System.Windows.Forms.TextBox();
             this.secondLabel = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.launchButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // hourIncrementButton
@@ -161,26 +161,27 @@
             this.secondLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.secondLabel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.secondLabel_KeyPress);
             // 
-            // button1
+            // launchButton
             // 
-            this.button1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Lucida Console", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(43, 176);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 41);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "LAUNCH";
-            this.button1.UseVisualStyleBackColor = false;
+            this.launchButton.BackColor = System.Drawing.Color.MidnightBlue;
+            this.launchButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.launchButton.Font = new System.Drawing.Font("Lucida Console", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.launchButton.ForeColor = System.Drawing.Color.White;
+            this.launchButton.Location = new System.Drawing.Point(43, 176);
+            this.launchButton.Name = "launchButton";
+            this.launchButton.Size = new System.Drawing.Size(147, 41);
+            this.launchButton.TabIndex = 11;
+            this.launchButton.Text = "LAUNCH";
+            this.launchButton.UseVisualStyleBackColor = false;
+            this.launchButton.Click += new System.EventHandler(this.launchButton_Click);
             // 
             // ShutXUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(241, 264);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.launchButton);
             this.Controls.Add(this.secondLabel);
             this.Controls.Add(this.minuteLabel);
             this.Controls.Add(this.hourLabel);
@@ -210,7 +211,7 @@
         private System.Windows.Forms.TextBox hourLabel;
         private System.Windows.Forms.TextBox minuteLabel;
         private System.Windows.Forms.TextBox secondLabel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button launchButton;
     }
 }
 

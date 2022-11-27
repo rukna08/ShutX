@@ -6,6 +6,8 @@ namespace ShutXLibrary {
 
         private int Hours;
 
+        private int Minutes;
+
         private int Seconds;
 
         public int GetHours() {
@@ -20,10 +22,22 @@ namespace ShutXLibrary {
 
         }
 
+        public int GetMinutes() {
+
+            return Minutes;
+            
+        }
+
         public void SetHours(int Hours) {
             
             this.Hours = Hours;
 
+        }
+
+        public void SetMinutes(int Minutes) {
+
+            this.Minutes = Minutes;
+        
         }
 
         public void SetSeconds(int Seconds) {
@@ -32,10 +46,10 @@ namespace ShutXLibrary {
 
         }
 
-        public void CalculateSeconds() {
+        public int CalculateFinalSeconds() {
 
-            SetSeconds(Hours * 3600);
-
+            return (Hours * 3600) + (Minutes * 60) + Seconds;
+        
         }
 
     }
