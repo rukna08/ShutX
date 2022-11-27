@@ -32,11 +32,9 @@ namespace ShutXLibrary {
 
         }
 
-        public int CalculateSeconds() {
+        public void CalculateSeconds() {
 
             SetSeconds(Hours * 3600);
-
-            return Hours * 3600;
 
         }
 

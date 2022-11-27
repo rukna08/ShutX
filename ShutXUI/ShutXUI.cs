@@ -21,6 +21,8 @@ namespace ShutXUI {
             if (e.KeyChar == (char) 13) {
 
                 time.SetHours(int.Parse(hoursTextBox.Text));
+
+                time.CalculateSeconds();
                 
             }
 
