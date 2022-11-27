@@ -4,7 +4,7 @@ namespace ShutXUI {
 
     public partial class ShutXUI : Form {
 
-        ShutXLibrary.Time time;
+        readonly ShutXLibrary.Time time;
 
         public ShutXUI() {
         
@@ -14,7 +14,7 @@ namespace ShutXUI {
         
         }
 
-        private void hoursTextBox_KeyPress(object sender, KeyPressEventArgs e) {
+        private void HoursTextBox_KeyPress(object sender, KeyPressEventArgs e) {
             
             // 13 -> Enter/Return ASCII
 

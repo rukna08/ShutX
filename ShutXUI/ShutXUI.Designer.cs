@@ -36,7 +36,7 @@
             this.hoursTextBox.Name = "hoursTextBox";
             this.hoursTextBox.Size = new System.Drawing.Size(115, 46);
             this.hoursTextBox.TabIndex = 0;
-            this.hoursTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hoursTextBox_KeyPress);
+            this.hoursTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.HoursTextBox_KeyPress);
             // 
             // hoursLabel
             // 
