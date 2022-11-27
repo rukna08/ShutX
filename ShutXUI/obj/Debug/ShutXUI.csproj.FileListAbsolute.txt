@@ -4,8 +4,11 @@ C:\Users\Ankur\Desktop\ShutX\ShutXUI\bin\Debug\ShutXUI.pdb
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.csproj.AssemblyReference.cache
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.csproj.SuggestedBindingRedirects.cache
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.Properties.Resources.resources
-C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.ShutX.resources
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.csproj.GenerateResource.cache
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.csproj.CoreCompileInputs.cache
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.exe
 C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.pdb
+C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.ShutXUI.resources
+C:\Users\Ankur\Desktop\ShutX\ShutXUI\bin\Debug\ShutXLibrary.dll
+C:\Users\Ankur\Desktop\ShutX\ShutXUI\bin\Debug\ShutXLibrary.pdb
+C:\Users\Ankur\Desktop\ShutX\ShutXUI\obj\Debug\ShutXUI.csproj.CopyComplete

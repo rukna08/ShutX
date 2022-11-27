@@ -13,7 +13,7 @@ namespace ShutXUI {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShutX());
+            Application.Run(new ShutXUI());
         }
     }
 }

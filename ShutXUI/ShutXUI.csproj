@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ShutX.cs">
+    <Compile Include="ShutXUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShutX.Designer.cs">
-      <DependentUpon>ShutX.cs</DependentUpon>
+    <Compile Include="ShutXUI.Designer.cs">
+      <DependentUpon>ShutXUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,8 +63,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ShutX.resx">
-      <DependentUpon>ShutX.cs</DependentUpon>
+    <EmbeddedResource Include="ShutXUI.resx">
+      <DependentUpon>ShutXUI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShutXLibrary\ShutXLibrary.csproj">
+      <Project>{69117eba-b2ec-4916-9a7c-bbe59bd75093}</Project>
+      <Name>ShutXLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

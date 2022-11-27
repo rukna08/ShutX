@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutXUI", "ShutXUI.csproj", "{C2126CD6-41A1-4BF1-AC92-291A3E15DDFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutXLibrary", "..\ShutXLibrary\ShutXLibrary.csproj", "{69117EBA-B2EC-4916-9A7C-BBE59BD75093}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C2126CD6-41A1-4BF1-AC92-291A3E15DDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2126CD6-41A1-4BF1-AC92-291A3E15DDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2126CD6-41A1-4BF1-AC92-291A3E15DDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69117EBA-B2EC-4916-9A7C-BBE59BD75093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69117EBA-B2EC-4916-9A7C-BBE59BD75093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69117EBA-B2EC-4916-9A7C-BBE59BD75093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69117EBA-B2EC-4916-9A7C-BBE59BD75093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
