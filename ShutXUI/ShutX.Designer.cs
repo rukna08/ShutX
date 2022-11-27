@@ -31,10 +31,12 @@
             // hoursTextBox
             // 
             this.hoursTextBox.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hoursTextBox.ForeColor = System.Drawing.Color.LimeGreen;
             this.hoursTextBox.Location = new System.Drawing.Point(122, 136);
             this.hoursTextBox.Name = "hoursTextBox";
             this.hoursTextBox.Size = new System.Drawing.Size(115, 46);
             this.hoursTextBox.TabIndex = 0;
+            this.hoursTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hoursTextBox_KeyPress);
             // 
             // hoursLabel
             // 

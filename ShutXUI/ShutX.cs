@@ -1,17 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace ShutXUI {
+
     public partial class ShutX : Form {
+    
         public ShutX() {
+        
             InitializeComponent();
+        
         }
+
+        private void hoursTextBox_KeyPress(object sender, KeyPressEventArgs e) {
+            
+            // 13 -> Enter/Return ASCII
+
+            if (e.KeyChar == (char)13) {
+
+                
+                
+            }
+
+        }
+
     }
+
 }
