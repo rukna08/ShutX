@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShutXUI));
             this.hourIncrementButton = new System.Windows.Forms.Button();
             this.hourDecrementButton = new System.Windows.Forms.Button();
             this.minuteIncrementButton = new System.Windows.Forms.Button();
@@ -192,6 +193,7 @@
             this.Controls.Add(this.hourDecrementButton);
             this.Controls.Add(this.hourIncrementButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ShutXUI";
             this.Text = "ShutX";
