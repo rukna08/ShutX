@@ -1,5 +1,4 @@
 ﻿using System.Drawing;
-
 using System.Windows.Forms;
 
 namespace ShutXUI {
@@ -125,6 +124,92 @@ namespace ShutXUI {
             } else {
 
                 minuteLabel.Text = "60";
+
+            }
+
+        }
+
+        private void secondIncrementButton_Click(object sender, System.EventArgs e) {
+
+            if (int.Parse(secondLabel.Text) != 60) {
+
+                if (int.Parse(secondLabel.Text) + 1 <= 9) {
+
+                    secondLabel.Text = "0" + (int.Parse(secondLabel.Text) + 1).ToString();
+
+                } else {
+
+                    secondLabel.Text = (int.Parse(secondLabel.Text) + 1).ToString();
+
+                }
+
+            } else {
+
+                secondLabel.Text = "00";
+
+            }
+
+        }
+
+        private void secondDecrementButton_Click(object sender, System.EventArgs e) {
+
+            if (int.Parse(secondLabel.Text) != 0) {
+
+                if (int.Parse(secondLabel.Text) + 1 <= 9) {
+
+                    secondLabel.Text = "0" + (int.Parse(secondLabel.Text) - 1).ToString();
+
+                } else {
+
+                    secondLabel.Text = (int.Parse(secondLabel.Text) - 1).ToString();
+
+                }
+
+            } else {
+
+                secondLabel.Text = "60";
+
+            }
+
+        }
+
+        private void hourLabel_KeyPress(object sender, KeyPressEventArgs e) {
+
+            if (e.KeyChar == (int)13) {
+
+                if (int.Parse(hourLabel.Text) <= 9) {
+
+                    hourLabel.Text = "0" + hourLabel.Text;
+                
+                }
+
+            }
+
+        }
+
+        private void minuteLabel_KeyPress(object sender, KeyPressEventArgs e) {
+
+            if (e.KeyChar == (int)13) {
+
+                if (int.Parse(minuteLabel.Text) <= 9) {
+
+                    minuteLabel.Text = "0" + minuteLabel.Text;
+
+                }
+
+            }
+
+        }
+
+        private void secondLabel_KeyPress(object sender, KeyPressEventArgs e) {
+
+            if (e.KeyChar == (int)13) {
+
+                if (int.Parse(secondLabel.Text) <= 9) {
+
+                    secondLabel.Text = "0" + secondLabel.Text;
+
+                }
 
             }
 
